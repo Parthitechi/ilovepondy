@@ -81,6 +81,16 @@ section h2 {
   padding: 8px 10px;
   color: #222222;
 }
+/* added this from another file  */
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.8rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
 
 #mainNav .navbar-nav > li > a {
   font-size: 11px;
@@ -153,7 +163,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: linear-gradient(to left, #7b4397, #dc2430); /* ref freecodecamp for the type of bg he needs or pic to be placed */
+  background: linear-gradient(to left, #24c3dc, #7b4397); /* ref freecodecamp for the type of bg he needs or pic to be placed */
 }
 
 header.masthead .header-content {
@@ -378,7 +388,10 @@ footer p {
   font-size: 12px;
   margin: 0;
 }
-
+footer span {
+  font-size: 12px;
+  margin: 0;
+}
 footer ul {
   margin-bottom: 0;
 }
